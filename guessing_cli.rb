@@ -6,7 +6,8 @@ def run_guessing_game
     #code  
   elsif user_guess == "exit"
      puts: "Goodbye!"
-   end
+     break
+  end
   
   
   
