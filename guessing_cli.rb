@@ -4,5 +4,7 @@ def run_guessing_game
   user_response = gets.strip
   if user_response == "exit"
     puts "Goodbye!"
+  elsif user_response.to_i == comp_guess
+    puts "You guessed the correct number!"
   end
 end
