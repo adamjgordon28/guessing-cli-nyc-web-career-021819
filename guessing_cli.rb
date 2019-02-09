@@ -7,4 +7,6 @@ def run_guessing_game
   elsif user_response.to_i == comp_guess
     puts "You guessed the correct number!"
   end
+  elsif user_resopnse.to_i != comp_guess
+   puts "The computer guessed #{comp_guess}."
 end
