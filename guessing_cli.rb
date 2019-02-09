@@ -1,5 +1,5 @@
 def run_guessing_game
-  puts "Hello, welcome to the Guessing Game! Guess a number between 1 and 10!"
+  puts "Guess a number between 1 and 6."
   user_guess = gets.strip
   comp_guess = rand(1..10)
   if user_guess.to_i == comp_guess 
