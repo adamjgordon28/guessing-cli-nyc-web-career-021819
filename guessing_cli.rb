@@ -4,4 +4,5 @@ def run_guessing_game
   user_response = gets.strip
   if user_response == "exit"
     puts "Goodbye!"
+  end
 end
