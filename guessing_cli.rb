@@ -1,4 +1,6 @@
 def prompt ()
+  puts "Please make another guess!"
+  user_input = gets.chomp
 end
 
 
