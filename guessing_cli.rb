@@ -12,5 +12,9 @@ def run_guessing_game
     end
   elsif user_response.to_i != comp_guess
    puts "The computer guessed #{comp_guess}."
+   user_response = gets.strip 
+    if user_response == "exit"
+    puts "Goodbye!"
+    end
  end
 end
