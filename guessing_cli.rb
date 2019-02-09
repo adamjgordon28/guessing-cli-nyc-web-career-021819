@@ -6,7 +6,7 @@ end
 
 def run_guessing_game
   puts "Hello, welcome to the Guessing Game! Guess a number between 1 and 10!"
-  while user_guess !=
+  user_guess = gets.chomp.to_i
   
   
   
