@@ -1,4 +1,5 @@
-
+def prompt ()
+end
 
 
 def run_guessing_game
